@@ -28,13 +28,13 @@ If you find our code or project useful in your research, please cite:
   
 ### 2) Training
 Put video frames under directory `/YOUR_TRAINING_DATA_ROOT/A` and the corresponding ground-truth flow images under directory `/YOUR_TRAINING_DATA_ROOT/B`. 
-Once the data is formatted this way, use the following script to generate paired training data.
+Once the data is formatted this way, use the following script to generate paired training data:
   ```bash
   python combine_A_and_B.py --fold_A /YOUR_TRAINING_DATA_ROOT/A --fold_B /YOUR_TRAINING_DATA_ROOT/B --fold_AB /YOUR_TRAINING_DATA_ROOT/AB
   ```
 Download the pre-trained motion content loss network:
   ```Shell
-  bash download_model.sh resnet-18_motion
+  bash model/download_model.sh resnet-18_motion
   ```
 Use the following command to train Im2Flow network:
   ```
