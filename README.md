@@ -21,7 +21,7 @@ If you find our code or project useful in your research, please cite:
   git clone https://github.com/rhgao/Im2Flow.git
   ```
   
-3. Download our pre-trained model using the following script. This model is trained on the UCF-101 dataset.
+3. Download our pre-trained model using the following script. This model is trained on the whole UCF-101 dataset.
   ```Shell
   bash model/download_model.sh Im2Flow
   ```
