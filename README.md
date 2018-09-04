@@ -6,8 +6,8 @@ This repository contains the code for our [CVPR 2018 paper Im2Flow](http://visio
 
 If you find our code or project useful in your research, please cite:
 
-        @inproceedings{gao2018im2flow,
-          title={On-Demand Learning for Deep Image Restoration},
+        @inproceedings{gao2018objectSounds,
+          title={Learning to Separate Object Sounds by Watching Unlabeled Video},
           author={Gao, Ruohan and Xiong, Bo and Grauman, Kristen},
           booktitle={CVPR},
           year={2018}
