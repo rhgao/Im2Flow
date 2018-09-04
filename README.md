@@ -6,7 +6,7 @@ This repository contains the code for our [CVPR 2018 paper Im2Flow](http://visio
 
 If you find our code or project useful in your research, please cite:
 
-        @inproceedings{gao2018objectSounds,
+        @inproceedings{gao2018im2flow,
           title={Im2Flow: Motion Hallucination from Static Images for Action Recognition},
           author={Gao, Ruohan and Xiong, Bo and Grauman, Kristen},
           booktitle={CVPR},
